@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf=8">
+        <style>
+            table{
+                width: 100%;
+                background: white;
+                color: black;
+                border-spacing: 0px;
+            }
+            td, th{
+                background: white;
+                padding: 2px;
+            }
+            .center-text{
+                text-align: center;
+            }
+            .right-text{
+                text-align: right;
+            }
+            .top-text{
+                vertical-align: top;
+            }
+        </style>
+    </head>
+  <body>
+    <h3 id="menu">Menu</h3>
+    <a href="#task1">1. Создать html документ. Создать три таблицы.</a><br>
+    <a href="#task2">2. Форматирование текста. </a><br>
+    <a href="#task3">3. Форматирование формул. </a><br>
+    <a href="#task4">4. Форматирование списков.</a><br>
+    <a href="#task5">5. Изображения, аудио, видео.</a><br>
+    <a href="#task6">6. Многостраничник и меню</a><br>
+    <a href="#task7">7. Задание по-варианту</a><br>
+
+    <h3 id="task1">1. Создать html документ. Создать три таблицы. </h3>
+    <h3>1.1</h3>
+        <table border="1">
+            <tr>
+                <td colspan="2">1</td>
+                <td colspan="2">2</td>
+                <td colspan="2" rowspan="2" class="top-text">3</td>
+            </tr>
+            <tr>
+                <td colspan="2">4</td>
+                <td colspan="2">5</td>
+            </tr>
+            <tr>
+                <td colspan="4">6</td>
+                <td colspan="2">7</td>
+            </tr>
+        </table>
+        <h3>1.2</h3>
+        <table border="1">
+            <tr>
+                <td colspan="6" class="center-text">1</td>
+            </tr>
+            <tr>
+                <td colspan="2">2</td>
+                <td colspan="2">3</td>
+                <td colspan="2" rowspan="3" class="top-text">4</td>
+            </tr>
+            <tr>
+                <td colspan="2">5</td>
+                <td colspan="2">6</td>
+            </tr>
+            <tr>
+                <td colspan="2">7</td>
+                <td colspan="2">8</td>
+            </tr>
+            <tr>
+                <td colspan="6" class="right-text">9</td>
+            </tr>
+        </table>
+        <h3>1.3</h3>
+        <table border="1">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2" class="top-text">3</td>
+                <td rowspan="3" class="top-text">8</td>
+                <td rowspan="3" class="top-text">9</td>
+            </tr>
+            <tr>
+                <td colspan="1">4</td>
+                <td colspan="1">5</td>
+            </tr>
+            <tr>
+                <td colspan="2">6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">10</td>
+                <td colspan="1">11</td>
+                <td colspan="1">12</td>
+            </tr>
+            <tr>
+                <td colspan="4">13</td>
+                <td colspan="1">14</td>
+            </tr>
+        </table>
+        <h3 id="task2">2. Форматирование текста. </h3>
+        <h3>Cтихотворение</h3>
+        <p>
+            Мириады маленьких дел <br>
+            Пьют по капле гаснущий день, <br>
+            А <em>дела большие</em> сушит жажда. <br>
+            Оставляя всё на "потом", <br>
+            Прозреваем задним числом, <br>
+            Только день <strong>не повторится</strong> дважды.<br>
+            <br>
+            И.Тальков
+        </p>
+        <h3 id="task3">3. Форматирование формул. </h3>
+        <h3>Волшебные формулы</h3>
+        <p>(x+y)<sup>3</sup> = x<sup>3</sup>+3x<sup>2</sup>y+3xy<sup>2</sup>+y<sup>3</sup></p>
+        <p>&Delta;x<sub>1</sub>+&Delta;x<sub>2</sub>+...+&Delta;x<sub>n</sub>=&#8721&Delta;x<sub>k</sub></p> 
+        <p>Если &forall;<sub>x</sub> &isin; R такого, что |x| &le; 1 &exist; y &ge; 1, то &xi; &lt; &infin;</p>
+        
+        <h3 id="task4">4. Форматирование списков.</h3>
+        <h3>Генераторы</h3>
+        <ul>
+            <li>Цвета</li>
+        <ul>
+            <li>Color Mixer</li>
+            <li>Color Tester</li>
+            <li>Color Pallete</li>
+        </ul> 
+        <li>Фавиконы</li>
+        <ol>
+            <li>Favion.cc</li>
+            <ul>
+                <li><a href="">Скачать</a></li>
+                <li><a href="">Демо</a></li>
+            </ul>
+            <li>WebLab Favion</li>
+        </ol> 
+        <li>Фоны</li>
+        <ul>
+            <li>BgMaker</li>
+            <li>SpriteGenerator</li>
+        </ul>
+        <li>Изображения</li>
+        <ol>
+            <li>Buttonator</li>
+            <li>AjaxLoad</li>
+        </ol> 
+        </ul>
+
+        <h3 id="task5">5. Изображения, аудио, видео.</h3>
+        <img src="photo.png" alt="Grafik_1" width="450" height="250"/>
+        <video width="450" height="250" controls="controls">
+            <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        <audio controls="controls">
+            <source src="audio.mp3">
+        </audio>
+        <h3 id="task6">6. Многостраничник и меню. </h3> 
+        <h3 id="task7">7. Задание по-варианту. Данные об автомобиле.</h3>
+        <h3>Данные об автомобиле</h3>
+        <form action="" method="get">
+            Марка: <input type="text" name="mark" size="15" maxlength="30" required/><br>
+            Цвет: <input type="text" name="mark" size="15" maxlength="30"required/><br>
+            Заводской номер: <input type="text" name="mark" size="15" maxlength="30"required/><br>
+            Бортовой номер: <input type="text" name="mark" size="15" maxlength="6"required/><br>
+            Дата выпуска: <input type="date" name="mark" size="15" maxlength="8"required/><br>
+            Особенности: <input type="text" name="mark" size="15" maxlength="30"required/><br>
+            Дата последнего ТО: <input type="date" name="mark" size="15" maxlength="8"required/><br>
+            ФИО владельца: <input type="text" name="mark" size="15" maxlength="50"required/><br>
+            Номер и серия паспорта: <input type="number" name="mark" size="15" maxlength="11"required/><br>
+            Выдан (дата):<input type="date" name="mark" size="15" maxlength="8"required/><br>
+            Выдан (место):<input type="text" name="mark" size="15" maxlength="30"required/><br>
+            <input type="submit" name="" value="Send"/>
+            <input type="reset" name="" value="Reset"/>
+        </body>
+</htm>l>
